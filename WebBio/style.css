@@ -1,0 +1,138 @@
+img{
+    float: right;
+    margin-right: 15px;
+    margin-top: 5px;
+    float: right;
+}
+body {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    background-color: aliceblue;
+    text-align: justify;
+    text-justify: inter-word;
+}
+main{
+    width: 75%;
+    padding: 10px;
+    float: left;
+}
+nav {
+    float: inline-start;
+    font-weight: 500;
+    overflow: visible;
+    background-color: rgb(225, 239, 252);
+    position: sticky;
+    padding: 25px;
+    width: 100%;
+}
+nav a {
+    float: left;
+    margin: 0%;
+    color: #78c6e6;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+nav a:hover {
+    background-color: #87CEEB;
+    color: black;
+}
+nav a:active {
+    background-color: #8cbed6;
+    color: black;
+}
+#page1{
+    font-size: 60px;
+    padding: 5px;
+    line-height: 5px;
+    font-weight: 500;
+    color: #87CEEB;
+}
+#intro{
+    padding: 10px;
+    padding-top: 5px;
+}
+table, th, td{
+    border: 1px solid black;
+}
+#tableP3{
+    float: right;
+}
+a:link{
+    color: #8cbed6;
+}
+a:visited{
+    color:#8cbed6;
+}
+#formP3 {
+    font-family: "Poppins";
+    margin: 0;
+    padding: 20px;
+    width: 50%;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.form-container div {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="prodi"],
+select {
+    width: 100%;
+    padding: 16px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+  }
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+textarea {
+    height: 150px;
+}
+
+.submit {
+    text-align: center;
+}
+
+button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #6fafcc;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+footer {
+    position: static;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    clear: both;
+ }
